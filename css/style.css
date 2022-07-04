@@ -1,0 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+}
+
+body {
+  font-family: 'Arima', cursive;
+  font-family: 'Oswald', sans-serif;
+}
+
+.headsec {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-sec {
+  width: 40%;
+}
+
+.sub-sec h1 {
+  font-size: 70px;
+}
+
+.sub-sec p {
+  font-size: 0;
+}
+
+.sub-sec a {
+  text-decoration: none;
+}
+
+.sub-sec img {
+  width: 100%;
+}
