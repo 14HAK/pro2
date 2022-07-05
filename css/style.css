@@ -7,31 +7,52 @@
 body {
   font-family: 'Arima', cursive;
   font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
 }
 
 .headsec {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+
+  padding: 50px 100px;
 }
 
 .sub-sec {
-  width: 40%;
+  width: 55%;
+}
+
+.relative {
+  position: absolute;
+  top: -6%;
+  left: 39%;
 }
 
 .sub-sec h1 {
   font-size: 70px;
+  color: #6a6a6a;
+  margin-bottom: 15px;
+
 }
 
 .sub-sec p {
-  font-size: 0;
+  font-size: 20px;
+  width: 75%;
+  color: #707070;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .sub-sec a {
   text-decoration: none;
+  background-color: coral;
+  color: #fff;
+  padding: 10px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 30px;
 }
 
 .sub-sec img {
-  width: 100%;
+  width: 110%;
 }
